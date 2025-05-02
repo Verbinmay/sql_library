@@ -1,4 +1,3 @@
-
 --2. Выведите id тех департаментов, где работает менеджер № 100 и не работают менеджеры № 145, 201.
 select
     department_id
@@ -46,18 +45,8 @@ from
     hr.locations l
     join hr.countries c using (country_id)
 where
-    country_name = 'Italy'
+    country_name in ('Italy', 'Germany')
 union all
-select
-    location_id,
-    postal_code,
-    city
-from
-    hr.locations l
-    join hr.countries c using (country_id)
-where
-    country_name = 'Germany'
-union
 select
     location_id,
     postal_code,

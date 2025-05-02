@@ -14,3 +14,4 @@
 
 --MOD(number, number) - остаток от деления
 --SELECT MOD(10, 3) from dual - вернет 1
+--SELECT 10 % 3 from dual - вернет 1

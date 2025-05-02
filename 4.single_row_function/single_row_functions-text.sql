@@ -15,6 +15,8 @@
 --SELECT column1, column1 from table_name where INITCAP(column1) = 'Value'
 ;
 
+--СОЕДИНЕНИЕ СТРОК 
+--SELECT concat(names.prefix, ' ', names.first, ' ', names.last, ' ', names.suffix) as title FROM names
 --CONCAT(str, str) - соединяет две строки ||, конвертирует все в строку, только два параметра
 --SELECT column1, CONCAT(column1, column2) from table_name
 ;
