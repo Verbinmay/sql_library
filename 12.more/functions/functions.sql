@@ -1,0 +1,3 @@
+CREATE FUNCTION increment(integer) RETURNS integer
+AS 'SELECT $1 + 1'
+LANGUAGE SQL;

@@ -1,0 +1,10 @@
+-- Использовать функции в запросах , например к датам, не игнорирует индекс 
+
+-- Какая разница между  TRUNCATE и DELETE?
+ 1. TRUNCATE - это DDL, а DELETE - это DML
+ 2. TRUNCATE удаляет все строки, а DELETE - только те, которые соответствуют условию
+ 3. TRUNCATE не может быть откатен, а DELETE может быть откатен
+ 4. TRUNCATE быстрее, чем DELETE
+ 5. TRUNCATE не может быть использован с WHERE, а DELETE может быть использован с WHERE
+
+-- При создании таблицы через сабквери туда перейдут not null и check constraint , но не перейдут primary key, unique, foreign 
